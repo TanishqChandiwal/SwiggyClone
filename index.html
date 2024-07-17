@@ -1,0 +1,566 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="external.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+		<link rel="stylesheet" href="aurangabad.html">
+		
+		<title>
+			SWIGGY
+		</title>
+
+		<style>
+			a{text-decoration:none;
+			color:white;
+			}
+			
+			a:hover{
+					font-weight:bold;
+					}
+					
+			i:hover{
+					font-weight:bold;
+					}
+					
+			#hii{
+				height:60vw; 
+				width:100vw;
+				float:left;
+				display:none;
+				background-color:rgba(255, 99, 71, 0.3);
+				position:absolute;
+				}
+				
+						
+			legend{
+			   font-family:"Vivaldi";
+			   font-size:40px;
+			   font-weight:bold;
+			}
+			
+			
+			form{
+				height:99%;
+				width:100%;
+				font-size:25px;
+				font-weight:bold;
+				overflow:y-hidden;
+			}
+			
+			input{
+				font-size:25px;
+				margin-bottom:3px;
+				font-weight:bold;
+			}
+			
+			::placeholder{
+						  color:red;
+						  font-family:Segoe Print;
+					}
+					
+			label{
+				  font-family:Segoe Print;
+				  }
+		</style>
+	</head>
+
+	<body style="overflow-x:hidden;" id="demo" >
+		<div id="hii">
+			<form action="D:\tanishq 2008\TANISHQ TASKS\hii.php"  method="get" oninput="x.value=parseInt(a.value)+parseInt(b.value)"> 
+				<legend> Enter Your Information </legend>
+				<hr>
+			
+				<div style="margin-top:15px; margin-left:0.5%;">			
+					<input type="text" name="first_name" required placeholder="First Name" style="width:46%;">   
+					<input type="text" name="last_name" required placeholder="Last Name" style="width:46%;">
+				</div> 
+					
+				<div style="margin-top:15px; margin-left:0.5%;">  
+					<input type="email" name="email" required placeholder="Email Id" style="width:46%;">
+					<input type="password" name="password" required placeholder="Password" style="width:46%;"> 
+				</div> 
+				
+				<div style="margin-top:15px; margin-left:0.5%;">
+					<input type="number" name="phone_number" required placeholder="Phone Number" style="width:46%;">
+				</div>
+				
+				<div style="margin-top:15px; margin-left:0.5%;">
+					<input type="number" id="quantity" name="city" required placeholder="City" style="width:46%;">
+				</div>
+				
+				<div style="margin-top:15px; margin-left:0.5%;">
+					<input type="number" id="quantity" name="state" required placeholder="State" style="width:46%;">
+				</div>
+				
+				<div style="margin-top:15px; margin-left:0.5%;">
+					<input type="number" id="quantity" name="age" required placeholder="Age" style="width:46%;">
+				</div>
+				
+				<div style="margin-top:15px; margin-left:0.5%;">
+				<label> Date Of Birth </label> 
+					<br>
+					<input type="date" name="DOB" required style="width:46%;">
+				</div>
+				
+				<div style="margin-top:15px; margin-left:0.5%;">
+					<label> Address </label>
+					<br>
+					<textarea name="message" rows="4" cols="80" required >
+						address
+					</textarea>
+				</div>
+				
+				<div style="float:left; width:46%; margin-top:20px; margin-left:0.5%;">
+					<input type="reset" value="Reset"  style="width:46%; float:left; background-color:#f18c00; font-family:Vivaldi;">
+					<input type="submit" value="Submit" style="width:46%; float:left; background-color:#f18c00; font-family:Vivaldi;"> 				
+				</div>	
+			</form>
+		</div>
+	
+	<!---main div1--->
+		<div class="div1">
+			<div class="f1">
+				<img src="swiggy_1.png" align="right">
+			</div>
+
+		<!---swiggy image--->
+			<div class="swiggy">
+				<img src="logo.png" align="left">
+				<div class="swiggy-span1">
+					SWIGGY
+				</div>
+			</div>
+
+		<!---div_s--->
+			<div class="div_s">
+				<span id="swiggy-span2" onclick="document.getElementById('hii').style.display='block'; document.getElementById('demo').style='overflow:hidden;'">
+					Login
+				</span>
+
+				<span class="swiggy-span3">
+					Sign up
+				</span>
+			</div>
+
+		<!---hungry--->
+			<div class="hungry">
+				Hungry?
+			</div>
+
+			<div class="order">
+				Order food from favourite restaurants near you.
+			</div>
+
+			<div class="location">
+				<span class="location_span1">
+					Enter your delivery location
+				</span>
+
+				<span class="location_span2">
+					<i class="fa-solid fa-location-crosshairs" style="color: #000000;"></i> Locate Me
+				</span>
+
+				<a href="file:///D:/tanishq%202008/Swiggy/external%20%20file/aurangabad.html" target="_blank">
+					<div class="location_div">
+						FIND FOOD
+					</div>
+				</a>
+			</div>
+
+			<div class="popular">
+				<span class="popular_span1">
+					POPULAR CITIES IN INDIA
+				</span>
+
+				<span class="popular_span2">
+					Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai
+				</span>
+
+				<span class="popular_span3">
+					Pune & more
+				</span>
+			</div>
+		</div>
+
+	<!---main div 2--->
+		<div class="div2">
+		<!--sub div1-->
+			<div class="div2_1">
+				<div class="div2_1_1"> <img src="minimum.png"> </div>
+				<div class="div2_1_2"> No Minimum Order </div>
+				<div class="div2_1_3"> <span> Order in for yourself or for the group,</span> with no restrictions on order value </div>
+			</div>
+
+		<!---sub div 2--->
+			<div class="div2_2">
+				<div class="div2_2_1"> <img src="live.png"> </div>
+				<div class="div2_2_2"> Live Order Tracking	</div>
+				<div class="div2_2_3"> <span> Know where your order is at all times, </span> from the restaurant to your doorstep </div>
+			</div>
+
+		<!---sub div3--->
+			<div class="div2_3">
+				<div class="div2_3_1"> <img src="fast.png"> </div>
+				<div class="div2_3_2"> Lightning-Fast Delivery	</div>
+				<div class="div2_3_3"> <span>Experience Swiggy's superfast delivery </span>for food delivered fresh & on time </div>
+			</div>
+		</div>
+
+	<!--- main div3--->
+		<div class="div3">
+			<div class="f1">
+				<img src="sc.png" align="right">
+			</div>
+
+		<!---sub div 1--->
+			<div class="div3_1">
+				<span> Restaurants in </span>
+				<br>
+				your pocket
+			</div>
+
+		<!---sub div2--->
+			<div class="div3_2">
+				<span> Order from your favorite restaurants & track </span>
+				on the go, with the all-new Swiggy app.
+			</div>
+
+		<!---sub div3--->
+			<div class="div3_3">
+				<a href="https://play.google.com/store/apps/details?id=in.swiggy.android" target="_blank">
+					<div class="div3_3_1">
+						<img src="store.png" align="left"> <span> GET IT ON </span>
+						<span class="span3_3_1"> GOOGLE PLAY </span>
+					</div>
+				</a>
+
+				<a href="https://apps.apple.com/in/app/swiggy-food-order-delivery/id989540920" target="_blank">
+					<div class="div3_3_2">
+						<img src="sep.png" align="left"> <span> Download on the </span>
+						<span class="span3_3_2"> App Store </span>
+					</div>
+				</a>
+			</div>
+		</div>
+
+	<!---main div4--->
+		<div class="div4">
+		<!---sub div1--->
+			<div class="div4_1">
+				<img src="sc-1.png">
+			</div>
+
+		<!---table1--->
+			<table class="table">
+			<!---table row1--->
+				<tr>
+					<th class="th1">
+						COMPANY
+					</th>
+
+					<th class="th2">
+						CONTACT
+					</th>
+
+					<th class="th3" style="padding-right:330px;">
+						LEGAL
+					</th>
+				</tr>
+
+			<!---table row2--->
+				<tr>
+					<td class="tr1_1">
+						<a href="https://www.swiggy.com/about" target="_blank">	About us </a>
+					</td>
+
+					<td class="tr2_2">
+						<a href="https://www.swiggy.com/support" target="_blank">  Help & Support </a>
+					</td>
+
+					<td class="tr3_3">
+						<a href="https://www.swiggy.com/terms-and-conditions" target="_blank"> Terms & Conditions </a>
+					</td>
+				</tr>
+
+			<!---table row3--->
+				<tr>
+					<td class="tr1">
+						<a href="https://www.swiggy.com/team" target="_blank"> Team </a>
+					</td>
+
+					<td class="tr2">
+						<a href="https://partner-with-us.swiggy.com/onboard#/swiggy" target="_blank"> Partner with us </a>
+					</td>
+
+					<td class="tr3">
+						<a href="https://www.swiggy.com/refund-policy" target="_blank"> Refund & Cancellation </a>
+					</td>
+				</tr>
+
+			<!---table row4--->
+				<tr>
+					<td class="tr1">
+						<a href="https://www.swiggy.com/careers" target="_blank"> Careers </a>
+					</td>
+
+					<td class="tr2">
+						<a href="https://ride.swiggy.com/" target="_blank"> Ride with us </a>
+					</td>
+
+					<td class="tr3">
+						<a href="https://www.swiggy.com/privacy-policy" target="_blank"> Privacy Policy </a>
+					</td>
+				</tr>
+
+			<!---table row5--->
+				<tr>
+					<td class="tr1">
+						<a href="https://blog.swiggy.com/" target="_blank"> Swiggy Blog </a>
+					</td>
+
+					<td class="tr2">
+
+					</td>
+
+					<td class="tr3">
+						<a href="https://www.swiggy.com/cookie-policy" target="_blank"> Cookie Policy </a>
+					</td>
+				</tr>
+
+			<!---table row6--->
+				<tr>
+					<td class="tr1">
+						<a href="https://www.swiggy.com/cookie-policy" target="_blank"> Bug Bounty </a>
+					</td>
+
+					<td class="tr2">
+
+					</td>
+
+					<td class="tr3">
+						<a href="https://www.swiggy.com/offer-terms" target="_blank"> Offer Terms </a>
+					</td>
+				</tr>
+
+			<!---table row7--->
+				<tr>
+					<td class="tr1">
+						<a href="https://www.swiggy.com/swiggy-super" target="_blank"> Swiggy One </a>
+					</td>
+
+					<td class="tr2">
+
+					</td>
+
+					<td class="tr3">
+						<a href="https://www.swiggy.com/swiggy-super" target="_blank"> Phishing Fraud </a>
+					</td>
+				</tr>
+
+			<!---table row8--->
+				<tr>
+					<td class="tr1">
+						<a href="https://corporate.swiggy.com/" target="_blank">Swiggy Corporate </a>
+					</td>
+
+					<td class="tr2">
+
+					</td>
+
+					<td class="tr3">
+						<a href="https://www.swiggy.com/tnc-corporate-sm" target="_blank"> Corporate – Swiggy Money Codes Terms and 
+						<div> Conditions </div> </a>
+					</td>
+				</tr>
+
+			<!---table row9--->
+				<tr>
+					<td class="tr1">
+						<a href="https://www.swiggy.com/swiggy-instamart" target="_blank"> Swiggy Instamart </a>
+					</td>
+				</tr>
+
+			<!---table row10--->
+				<tr>
+					<td class="tr1">
+						<a href="https://www.swiggy.com/swiggy-genie" target="_blank">Swiggy Genie </a>
+					</td>
+
+					<td class="tr2">
+
+					</td>
+
+					<td class="tr3_1">
+						 <a href="https://www.swiggy.com/tnc-corporate-discount" target="_blank"> Corporate - Swiggy Discount Voucher Terms and 
+						 <div> Conditions </div> </a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+	<!---main div5--->
+		<div class="div5">
+		<!---sub div1--->
+			<div class="div5_1">
+			<!---table2--->
+				<table>
+				<!---table row1--->
+					<tr>
+						<td class="th5_1">
+							WE DELIVER TO
+						</td>
+
+						<td class="th5_1">
+
+						</td>
+
+						<td class="th5_1">
+
+						</td>
+
+						<td class="th5_1">
+
+						</td>
+					</tr>
+
+				<!---table row2--->
+					<tr>
+						<td class="td5_1">
+							<a href="https://www.swiggy.com/city/abohar" > Abohar </a>
+						</td>
+
+						<td class="td5_2">
+							<a href="https://www.swiggy.com/city/dehradun"> Dehradun </a>
+						</td>
+
+						<td class="td5_3">
+							<a href="https://www.swiggy.com/city/dehradun"> Khanna </a>
+						</td>
+
+						<td class="td5_4">
+							<a href="https://www.swiggy.com/city/purulia"> Purulia </a>
+						</td>
+					</tr>
+
+				<!---table row3--->
+					<tr>
+						<td class="td5_1">
+							<a href="https://www.swiggy.com/city/adilabad"> Adilabad </a>
+						</td>
+
+						<td class="td5_2">
+							<a href="https://www.swiggy.com/city/dehri"> Dehri </a>
+						</td>
+
+						<td class="td5_3">
+							<a href="https://www.swiggy.com/city/kharagpur"> Kharagpur </a>
+						</td>
+
+						<td class="td5_4">
+							<a href="https://www.swiggy.com/city/pusad"> Pusad </a>
+						</td>
+					</tr>
+
+				<!---table row4--->
+					<tr>
+						<td class="td5_1">
+							<a href="https://www.swiggy.com/city/adityapur"> Aditypur </a>
+						</td>
+
+						<td class="td5_2">
+							<a href="https://www.swiggy.com/city/dehli"> Dehli </a>
+						</td>
+
+						<td class="td5_3">
+							<a href="https://www.swiggy.com/city/kishanganj"> Kishanganj </a>
+						</td>
+
+						<td class="td5_4">
+							<a href="https://www.swiggy.com/city/puttur"> Puttur </a>
+						</td>
+					</tr>
+
+				<!---table row5--->
+					<tr>
+						<td class="td5_1">
+							<a href="https://www.swiggy.com/city/adoni"> Adoni </a>
+						</td>
+
+						<td class="td5_2">
+							<a href="https://www.swiggy.com/city/deoghr"> Deogar</a>
+						</td>
+
+						<td class="td5_3">
+							<a href="https://www.swiggy.com/city/kishangarh"> Kishangarh </a>
+						</td>
+
+						<td class="td5_4">
+							<a href="https://www.swiggy.com/city/rae-bareli"> Rae-Bareli </a>
+						</td>
+					</tr>
+
+				<!---table row6--->
+					<tr>
+						<td class="td5_1">
+							<a href="https://www.swiggy.com/city/agartala"> Agartala </a>
+						</td>
+
+						<td class="td5_2">
+							<a href="https://www.swiggy.com/city/deoria-city"> Deoria-City</a>
+						</td>
+
+						<td class="td5_3">
+							<a href="https://www.swiggy.com/city/kochi"> Kochi </a>
+						</td>
+
+						<td class="td5_4">
+							<a href="https://www.swiggy.com/city/raghunathpur"> Raghunathpur </a>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+		<!---main div6--->
+		<div class="div6">
+			<a href="https://www.swiggy.com/">
+			<!--sub div1-->
+				<div class="div6_1">
+					<img src="swiggy_logo.png" align="left"> <span class="span6_1"> SWIGGY </span>
+				</div>
+			</a>
+
+		<!--sub div2-->
+			<div class="div6_2">
+				<span class="span6_2"> <i class="ri-copyright-line"></i>  2023 Swiggy </span>
+			</div>
+
+		<!--sub div3-->
+			<div class="div6_3">
+				<a href="https://www.facebook.com/swiggy.in" target="_blank">
+					<span>
+						<i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+					</span>
+				</a>
+
+				<a href="https://www.facebook.com/swiggy.in" target="_blank">
+					<span class="span6_3"> 
+						<i class="fa-brands fa-pinterest" style="color: #ffffff;"></i>
+					</span>
+				</a>
+
+				<a href="https://instagram.com/swiggyindia/" target="_blank">
+					<span class="span6_3"> 
+						<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+					</span>
+				</a>
+
+				<a href="https://twitter.com/swiggy" target="_blank">
+					<span class="span6_3"> 
+						<i class="fa-brands fa-twitter" style="color: #ffffff;"></i> 
+					</span>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
